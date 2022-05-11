@@ -38,17 +38,18 @@ function Home() {
   )
 }
 
-const toggle = document.querySelector(".hover-show");
-console.log(toggle);
 
-toggle.addEventListener('click', () => {
-  toggle.classList.toggle('active');
-});
+// let toggle = document.querySelector('.hover-show');
+// console.log(toggle);
+
+// toggle.addEventListener('click', () => {
+//   toggle.classList.toggle('active');
+// });
 
 // const toggle = document.querySelector('.main-img');
 // toggle.addEventListener('click', () => {
 //     toggle.classList.toggle('active')
 // })
-console.log(toggle);
+// console.log(toggle);
 
 export default Home

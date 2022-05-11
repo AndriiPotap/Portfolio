@@ -32,7 +32,7 @@ function Nav() {
   )
 }
 
-let Icons = document.querySelectorAll('.navigation .icon');
+ let Icons = document.querySelectorAll('.navigation .icon');
 
 Icons.forEach((icon => {
     icon.addEventListener('click', () => {
